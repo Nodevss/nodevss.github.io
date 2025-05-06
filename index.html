@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/png">
+    <title>fishsticks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">nodev</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="active">
+            <h1>Hey, I'm Nodev</h1>
+            <div class="home-content">
+                <div class="home-text">
+                    <p>high school student who's intersted in game development and mechatronics engineering.</p>
+                    <p>i'm a pretty easy person to get along with just don't piss me off too much</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/ikramm.fr" target="_blank" class="social-icon" data-platform="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/_nodev" target="_blank" class="social-icon" data-platform="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com/Nodevss" target="_blank" class="social-icon" data-platform="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitch.tv/nodevss" target="_blank" class="social-icon" data-platform="Twitch">
+                            <i class="fab fa-twitch"></i>
+                        </a>
+                    </div>
+
+                    <div class="time-display">
+                        <p class="time-text">In my area, it's currently <span id="chicago-time">--:-- --</span> <span id="time-emoji">🌙</span></p>
+                    </div>
+
+                    <div class="current-project">
+                        <h3><i class="fas fa-code-branch"></i> Currently Building</h3>
+                        <div class="project-card">
+                            <div class="project-pulse"></div>
+                            <p>Nothing for now</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img src="pfp.png" alt="Nodev" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hey, I'm Nodev (real name Ikram). I've lived in Chicago almost my whole life, and I'm aiming to major in mechatronics engineering. 
+                        I love sports—especially football, basketball, and volleyball (though I'll admit I'm terrible at all three). 
+                        Fair warning: I probably won't follow you back on socials unless we've met, but I still post updates on projects and life stuff.
+                    </p>
+                    <div class="divider"></div>
+                </div>
+                
+                <h2>Games I Love</h2>
+                <div class="games-grid"></div>
+                
+                <div class="divider"></div>
+                
+                <h2>My Top 5 Shows</h2>
+                <div class="shows-grid"></div>
+                
+                <div class="divider"></div>
+
+                <div class="divider"></div>
+<h2>Random Song I Like</h2>
+<div class="song-container">
+    <iframe id="random-song" style="border-radius:12px" width="100%" height="85" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <h4>(you can refresh the page to get a new one)</h4>
+</div>
+            </div>
+        </section>
+        
+        <section id="portfolio">
+            <h1>My Work</h1>
+            <div class="portfolio-content">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="terminal-btn red"></span>
+                            <span class="terminal-btn yellow"></span>
+                            <span class="terminal-btn green"></span>
+                        </div>
+                        <span class="terminal-title">nodev@portfolio:~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">> Initializing portfolio...</div>
+                        <div class="terminal-line">> Yikes! Nothing here...</div>
+                        <div class="terminal-line">> Though, I would be honored to make a site like this for you.</div>
+                        <div class="terminal-line">> For a price obviously, js contact me and I got you.</div>
+                        <div class="terminal-line blinking">> _</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
